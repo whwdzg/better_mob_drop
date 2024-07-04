@@ -26,31 +26,7 @@
               "function": "minecraft:enchanted_count_increase"
             }
           ],
-          "name": "minecraft:seagrass",
-          "weight": 3
-        }
-      ],
-      "rolls": 1.0
-    },
-    {
-      "bonus_rolls": 0.0,
-      "conditions": [
-        {
-          "condition": "minecraft:damage_source_properties",
-          "predicate": {
-            "tags": [
-              {
-                "expected": true,
-                "id": "minecraft:is_lightning"
-              }
-            ]
-          }
-        }
-      ],
-      "entries": [
-        {
-          "type": "minecraft:item",
-          "name": "minecraft:bowl"
+          "name": "minecraft:feather"
         }
       ],
       "rolls": 1.0
@@ -62,13 +38,40 @@
           "type": "minecraft:item",
           "functions": [
             {
-              "add": false,
-              "count": {
-                "type": "minecraft:uniform",
-                "max": 4.0,
-                "min": 2.0
-              },
-              "function": "minecraft:set_count"
+              "conditions": [
+                {
+                  "condition": "minecraft:any_of",
+                  "terms": [
+                    {
+                      "condition": "minecraft:entity_properties",
+                      "entity": "this",
+                      "predicate": {
+                        "flags": {
+                          "is_on_fire": true
+                        }
+                      }
+                    },
+                    {
+                      "condition": "minecraft:entity_properties",
+                      "entity": "direct_attacker",
+                      "predicate": {
+                        "equipment": {
+                          "mainhand": {
+                            "predicates": {
+                              "minecraft:enchantments": [
+                                {
+                                  "enchantments": "#minecraft:smelts_loot"
+                                }
+                              ]
+                            }
+                          }
+                        }
+                      }
+                    }
+                  ]
+                }
+              ],
+              "function": "minecraft:furnace_smelt"
             },
             {
               "count": {
@@ -80,7 +83,7 @@
               "function": "minecraft:enchanted_count_increase"
             }
           ],
-          "name": "minecraft:turtle_scute"
+          "name": "minecraft:chicken"
         }
       ],
       "rolls": 1.0
@@ -110,10 +113,11 @@
               "function": "minecraft:enchanted_count_increase"
             }
           ],
-          "name": "minecraft:turtle_egg"
+          "name": "minecraft:egg"
         }
       ],
       "rolls": 1.0
     }
-  ]
+  ],
+  "random_sequence": "minecraft:entities/chicken"
 }
