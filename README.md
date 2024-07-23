@@ -14,4 +14,3 @@
 
 # Modrinth
 [https://modrinth.com/project/better_mob_drop](https://modrinth.com/project/better_mob_drop)
-
