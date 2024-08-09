@@ -1,0 +1,38 @@
+{
+  "parent": "minecraft:adventure/root",
+  "criteria": {
+    "netherite_from_piglin": {
+      "conditions": {
+        "victims": [
+          [
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "type": "minecraft:piglin_brute"
+              }
+            }
+          ]
+        ]
+      }
+    }
+  },
+  "display": {
+    "description": {
+      "translate": "advancements.adventure.netherite_from_piglin.description"
+    },
+    "icon": {
+      "count": 1,
+      "id": "minecraft:netherite_ingot"
+    },
+    "title": {
+      "translate": "advancements.adventure.netherite_from_piglin.title"
+    }
+  },
+  "requirements": [
+    [
+      "netherite_from_piglin"
+    ]
+  ],
+  "sends_telemetry_event": true
+}
