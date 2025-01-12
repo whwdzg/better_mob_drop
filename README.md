@@ -14,3 +14,10 @@
 
 # Modrinth
 [https://modrinth.com/project/better_mob_drop](https://modrinth.com/project/better_mob_drop)
+
+# Q&A
+1. What does this mod do to my Minecraft?
+   Better Mob Drop change the item dropped from some mobs to make it more reasonable.
+2. How many mobs have been changed?
+   You can check out the advancements(only Chinese).
+
