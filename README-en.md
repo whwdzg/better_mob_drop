@@ -15,6 +15,9 @@
 # Modrinth
 [https://modrinth.com/datapack/better_mob_drop](https://modrinth.com/datapack/better_mob_drop)
 
+# Modrinth(No Advancements Version)
+[https://modrinth.com/datapack/better_mob_drop-nav](https://modrinth.com/datapack/better_mob_drop-nav)
+
 # MCMOD
 [https://www.mcmod.cn/class/17769.html](https://www.mcmod.cn/class/17769.html)
 
