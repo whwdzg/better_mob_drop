@@ -23,4 +23,5 @@
    Better Mob Drop change the item dropped from some mobs to make it more reasonable.
 2. How many mobs have been changed?
    You can check out the advancements(only Chinese).
-
+3. What's NAV version?
+   NAV version is "No Advancement Version", if you aren't really dislike advancements, you should use stanard version.

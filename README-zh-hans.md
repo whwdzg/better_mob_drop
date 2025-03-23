@@ -1,7 +1,9 @@
 <div align="center">
     <img align="center" src="https://raw.githubusercontent.com/whwdzg/better_mob_drop/main/pack.png" alt="logo" width="200">
-    <h1 align="center">Better_mob_drop</h1>
+    <h1 align="center">更好的生物掉落（Better_mob_drop）</h1>
     <p align="enter">提供更加合理的生物掉落</p>
+    <a href="https://github.com/whwdzg/better_mob_drop/blob/main/README-en.md">English Ver.</a>
+    </br>
     <img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/whwdzg/better_mob_drop">
     <img alt="GitHub forks" src="https://img.shields.io/github/forks/whwdzg/better_mob_drop">
     <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/whwdzg/better_mob_drop">
@@ -20,6 +22,9 @@
 # Modrinth
 [https://modrinth.com/datapack/better_mob_drop](https://modrinth.com/datapack/better_mob_drop)
 
+# Modrinth(No Advancements Version)
+[https://modrinth.com/datapack/better_mob_drop-nav](https://modrinth.com/datapack/better_mob_drop-nav)
+
 # MCMOD
 [https://www.mcmod.cn/class/17769.html](https://www.mcmod.cn/class/17769.html)
 
@@ -28,4 +33,5 @@
    更好的生物掉落模组/数据包加载后，对应生物都可以合理地掉落对应物品！
 2. 那有哪些生物掉落被更改了?
    你可以在游戏中查看进度树，每种生物被击杀时都会点亮对应进度。（仅支持简体中文）
-
+3. NAV是什么版本?
+   NAV指的是无进度版本，如果你不是非常不喜欢数据包里的进度系统的话并不推荐使用NAV版本。
