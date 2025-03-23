@@ -13,7 +13,7 @@
 </div>
 
 # Modrinth
-[https://modrinth.com/project/better_mob_drop](https://modrinth.com/project/better_mob_drop)
+[https://modrinth.com/datapack/better_mob_drop](https://modrinth.com/datapack/better_mob_drop)
 
 # MCMOD
 [https://www.mcmod.cn/class/17769.html](https://www.mcmod.cn/class/17769.html)

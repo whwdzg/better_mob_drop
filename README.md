@@ -19,8 +19,8 @@
 
 现在，各类生物都会直接掉落他们该掉落的！
 
-# Github
-[https://github.com/whwdzg/better_mob_drop](https://github.com/whwdzg/better_mob_drop)
+# Modrinth
+[https://modrinth.com/datapack/better_mob_drop](https://modrinth.com/datapack/better_mob_drop)
 
 # MCMOD
 [https://www.mcmod.cn/class/17769.html](https://www.mcmod.cn/class/17769.html)
