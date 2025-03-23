@@ -22,7 +22,7 @@
 # Modrinth
 [https://modrinth.com/datapack/better_mob_drop](https://modrinth.com/datapack/better_mob_drop)
 
-# Modrinth(No Advancements Version)
+# Modrinth(无进度版本)
 [https://modrinth.com/datapack/better_mob_drop-nav](https://modrinth.com/datapack/better_mob_drop-nav)
 
 # MCMOD
