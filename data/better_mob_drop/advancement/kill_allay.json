@@ -30,5 +30,5 @@
   "rewards": {    
       "experience": 10    
   },
-  "parent": "better_mob_drop:beter_mob_drop"
+  "parent": "better_mob_drop:better_mob_drop"
 }
