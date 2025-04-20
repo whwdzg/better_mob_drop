@@ -9,7 +9,7 @@
   },
   "display": {
     "announce_to_chat": false,
-    "background": "minecraft:textures/block/chiseled_stone_bricks.png",
+    "background": "minecraft:block/chiseled_stone_bricks",
     "description": {
       "translate": "更好的生物掉落，掉落他们原本应该掉落的东西"
     },
