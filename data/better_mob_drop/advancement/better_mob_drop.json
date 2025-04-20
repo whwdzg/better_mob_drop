@@ -8,7 +8,7 @@
     }
   },
   "display": {
-    "announce_to_chat": true,
+    "announce_to_chat": false,
     "background": "minecraft:textures/block/chiseled_stone_bricks.png",
     "description": {
       "translate": "更好的生物掉落，掉落他们原本应该掉落的东西"
@@ -16,7 +16,7 @@
     "icon": {
       "id": "minecraft:iron_sword"
     },
-    "show_toast": true,
+    "show_toast": false,
     "title": {
       "translate": "Better Mob Drop"
     }
