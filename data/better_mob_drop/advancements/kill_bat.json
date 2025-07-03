@@ -20,7 +20,7 @@
            "translate": "杀死阴暗无人角落里的蝙蝠"
        },
        "frame": "task",    
-       "announce_to_chat": true,     
+       "announce_to_chat": false,     
        "hidden": false,   
        "show_toast": true
   },
