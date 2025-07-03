@@ -20,7 +20,7 @@
            "translate": "村民之死"
        },
        "frame": "task",    
-       "announce_to_chat": true,     
+       "announce_to_chat": false,     
        "hidden": false,   
        "show_toast": true
   },
