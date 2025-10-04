@@ -1,6 +1,7 @@
 ﻿{
 	"pack": {
 		"pack_format": 26,
+		"supported_formats": [ 4, 26 ],
 		"description":"Provide more reasonable mob drop -by whwdzg"
 	}
 }
