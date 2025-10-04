@@ -1,23 +1,23 @@
 {
   "criteria": {   
-      "kill_goat": {    
+      "kill_bat": {    
           "trigger": "player_killed_entity",    
           "conditions": {
               "entity":{
-                "type": "minecraft:goat"
+                "type": "minecraft:bat"
             }
           }
       }
   },
   "display": {
       "icon": {    
-          "id": "minecraft:mutton"
+          "id": "minecraft:phantom_membrane"
        },
        "title": {
-           "translate": "高山甄选"
+           "translate": "我也不想在这里"
        },
        "description": {
-           "translate": "山中羊的山珍味道"
+           "translate": "杀死阴暗无人角落里的蝙蝠"
        },
        "frame": "task",    
        "announce_to_chat": false,     
@@ -25,10 +25,10 @@
        "show_toast": true
   },
   "requirements": [    
-      ["kill_goat"]
+      ["kill_bat"]
   ],
   "rewards": {    
       "experience": 10    
   },
-  "parent": "better_mob_drop:better_mob_drop"
+  "parent": "better-mob-drop:kill_bee"
 }

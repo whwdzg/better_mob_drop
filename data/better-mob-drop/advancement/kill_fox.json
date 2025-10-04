@@ -1,23 +1,23 @@
 {
   "criteria": {   
-      "kill_camel": {    
+      "kill_fox": {    
           "trigger": "player_killed_entity",    
           "conditions": {
               "entity":{
-                "type": "minecraft:camel"
+                "type": "minecraft:fox"
             }
           }
       }
   },
   "display": {
       "icon": {    
-          "id": "minecraft:cactus"
+          "id": "minecraft:sweet_berries"
        },
        "title": {
-           "translate": "沙漠中商人的最爱"
+           "translate": "破入Windows的Firefox"
        },
        "description": {
-           "translate": "骆驼皮？！"
+           "translate": "???"
        },
        "frame": "task",    
        "announce_to_chat": false,     
@@ -25,10 +25,10 @@
        "show_toast": true
   },
   "requirements": [    
-      ["kill_camel"]
+      ["kill_fox"]
   ],
   "rewards": {    
       "experience": 10    
   },
-  "parent": "better_mob_drop:better_mob_drop"
+  "parent": "better-mob-drop:better-mob-drop"
 }

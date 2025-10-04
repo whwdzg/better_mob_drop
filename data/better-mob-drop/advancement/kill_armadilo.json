@@ -1,23 +1,23 @@
 {
   "criteria": {   
-      "kill_bee": {    
+      "kill_armadilo": {    
           "trigger": "player_killed_entity",    
           "conditions": {
               "entity":{
-                "type": "minecraft:bee"
+                "type": "minecraft:armadillo"
             }
           }
       }
   },
   "display": {
       "icon": {    
-          "id": "minecraft:honeycomb"
+          "id": "minecraft:armadillo_scute"
        },
        "title": {
-           "translate": "辛勤小蜜蜂"
+           "translate": "狗铠的诞生"
        },
        "description": {
-           "translate": "危险的抢劫"
+           "translate": "杀死一只路过的犰狳"
        },
        "frame": "task",    
        "announce_to_chat": false,     
@@ -25,10 +25,10 @@
        "show_toast": true
   },
   "requirements": [    
-      ["kill_bee"]
+      ["kill_armadilo"]
   ],
   "rewards": {    
       "experience": 10    
   },
-  "parent": "better_mob_drop:better_mob_drop"
+  "parent": "better-mob-drop:kill_turtle"
 }

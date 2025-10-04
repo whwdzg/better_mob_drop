@@ -1,23 +1,23 @@
 {
   "criteria": {   
-      "kill_villager": {    
+      "kill_bee": {    
           "trigger": "player_killed_entity",    
           "conditions": {
               "entity":{
-                "type": "minecraft:villager"
+                "type": "minecraft:bee"
             }
           }
       }
   },
   "display": {
       "icon": {    
-          "id": "minecraft:emerald"
+          "id": "minecraft:honeycomb"
        },
        "title": {
-           "translate": "奸商处罚"
+           "translate": "辛勤小蜜蜂"
        },
        "description": {
-           "translate": "村民之死"
+           "translate": "危险的抢劫"
        },
        "frame": "task",    
        "announce_to_chat": false,     
@@ -25,10 +25,10 @@
        "show_toast": true
   },
   "requirements": [    
-      ["kill_villager"]
+      ["kill_bee"]
   ],
   "rewards": {    
       "experience": 10    
   },
-  "parent": "better_mob_drop:better_mob_drop"
+  "parent": "better-mob-drop:better-mob-drop"
 }
