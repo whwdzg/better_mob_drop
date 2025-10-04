@@ -1,23 +1,23 @@
 {
   "criteria": {   
-      "kill_armadilo": {    
+      "kill_goat": {    
           "trigger": "player_killed_entity",    
           "conditions": {
               "entity":{
-                "type": "minecraft:armadillo"
+                "type": "minecraft:goat"
             }
           }
       }
   },
   "display": {
       "icon": {    
-          "id": "minecraft:armadillo_scute"
+          "id": "minecraft:mutton"
        },
        "title": {
-           "translate": "狗铠的诞生"
+           "translate": "高山甄选"
        },
        "description": {
-           "translate": "杀死一只路过的犰狳"
+           "translate": "山中羊的山珍味道"
        },
        "frame": "task",    
        "announce_to_chat": false,     
@@ -25,10 +25,10 @@
        "show_toast": true
   },
   "requirements": [    
-      ["kill_armadilo"]
+      ["kill_goat"]
   ],
   "rewards": {    
       "experience": 10    
   },
-  "parent": "better_mob_drop:kill_turtle"
+  "parent": "better-mob-drop:better-mob-drop"
 }

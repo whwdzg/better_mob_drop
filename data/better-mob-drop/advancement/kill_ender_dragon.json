@@ -1,23 +1,23 @@
 {
   "criteria": {   
-      "kill_turtle": {    
+      "kill_ender_dragon": {    
           "trigger": "player_killed_entity",    
           "conditions": {
               "entity":{
-                "type": "minecraft:turtle"
+                "type": "minecraft:ender_dragon"
             }
           }
       }
   },
   "display": {
       "icon": {    
-          "id": "minecraft:turtle_scute"
+          "id": "minecraft:dragon_head"
        },
        "title": {
-           "translate": "海龟帽的诞生"
+           "translate": "胜利之首"
        },
        "description": {
-           "translate": "杀死一只无助的海龟"
+           "translate": "勇士对恶龙实行的斩首"
        },
        "frame": "task",    
        "announce_to_chat": false,     
@@ -25,10 +25,10 @@
        "show_toast": true
   },
   "requirements": [    
-      ["kill_turtle"]
+      ["kill_ender_dragon"]
   ],
   "rewards": {    
       "experience": 10    
   },
-  "parent": "better_mob_drop:better_mob_drop"
+  "parent": "better-mob-drop:better-mob-drop"
 }
