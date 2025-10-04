@@ -1,23 +1,23 @@
 {
   "criteria": {   
-      "kill_piglin": {    
+      "kill_polar_bear": {    
           "trigger": "player_killed_entity",    
           "conditions": {
               "entity":{
-                "type": "minecraft:piglin"
+                "type": "minecraft:polar_bear"
             }
           }
       }
   },
   "display": {
       "icon": {    
-          "item": "minecraft:gold_ingot"
+          "item": "minecraft:ice"
        },
        "title": {
-           "translate": "下界奸商"
+           "translate": "熊皮大衣"
        },
        "description": {
-           "translate": "成为摸金校尉"
+           "translate": "北极的御寒神器"
        },
        "frame": "task",    
        "announce_to_chat": false,     
@@ -25,10 +25,10 @@
        "show_toast": true
   },
   "requirements": [    
-      ["kill_piglin"]
+      ["kill_polar_bear"]
   ],
   "rewards": {    
       "experience": 10    
   },
-  "parent": "better_mob_drop:better_mob_drop"
+  "parent": "better-mob-drop:better-mob-drop"
 }

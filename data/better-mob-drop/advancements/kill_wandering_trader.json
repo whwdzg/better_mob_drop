@@ -1,23 +1,23 @@
 {
   "criteria": {   
-      "kill_allay": {    
+      "kill_wandering_trader": {    
           "trigger": "player_killed_entity",    
           "conditions": {
               "entity":{
-                "type": "minecraft:allay"
+                "type": "minecraft:wandering_trader"
             }
           }
       }
   },
   "display": {
       "icon": {    
-          "item": "minecraft:amethyst_shard"
+          "item": "minecraft:lead"
        },
        "title": {
-           "translate": "你个魔鬼！"
+           "translate": "流浪拴绳"
        },
        "description": {
-           "translate": "杀死一只友好的悦灵"
+           "translate": "旅途的终点..."
        },
        "frame": "task",    
        "announce_to_chat": false,     
@@ -25,10 +25,10 @@
        "show_toast": true
   },
   "requirements": [    
-      ["kill_allay"]
+      ["kill_wandering_trader"]
   ],
   "rewards": {    
       "experience": 10    
   },
-  "parent": "better_mob_drop:better_mob_drop"
+  "parent": "better-mob-drop:kill_vilager"
 }

@@ -1,23 +1,23 @@
 {
   "criteria": {   
-      "kill_bat": {    
+      "kill_fox": {    
           "trigger": "player_killed_entity",    
           "conditions": {
               "entity":{
-                "type": "minecraft:bat"
+                "type": "minecraft:fox"
             }
           }
       }
   },
   "display": {
       "icon": {    
-          "item": "minecraft:phantom_membrane"
+          "item": "minecraft:sweet_berries"
        },
        "title": {
-           "translate": "我也不想在这里"
+           "translate": "破入Windows的Firefox"
        },
        "description": {
-           "translate": "杀死阴暗无人角落里的蝙蝠"
+           "translate": "???"
        },
        "frame": "task",    
        "announce_to_chat": false,     
@@ -25,10 +25,10 @@
        "show_toast": true
   },
   "requirements": [    
-      ["kill_bat"]
+      ["kill_fox"]
   ],
   "rewards": {    
       "experience": 10    
   },
-  "parent": "better_mob_drop:kill_bee"
+  "parent": "better-mob-drop:better-mob-drop"
 }

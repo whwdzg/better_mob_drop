@@ -1,23 +1,23 @@
 {
   "criteria": {   
-      "kill_piglin_brute": {    
+      "kill_bat": {    
           "trigger": "player_killed_entity",    
           "conditions": {
               "entity":{
-                "type": "minecraft:piglin_brute"
+                "type": "minecraft:bat"
             }
           }
       }
   },
   "display": {
       "icon": {    
-          "item": "minecraft:netherite_ingot"
+          "item": "minecraft:phantom_membrane"
        },
        "title": {
-           "translate": "决斗游戏"
+           "translate": "我也不想在这里"
        },
        "description": {
-           "translate": "杀死堡垒遗迹中最强劲的斗士"
+           "translate": "杀死阴暗无人角落里的蝙蝠"
        },
        "frame": "task",    
        "announce_to_chat": false,     
@@ -25,10 +25,10 @@
        "show_toast": true
   },
   "requirements": [    
-      ["kill_piglin_brute"]
+      ["kill_bat"]
   ],
   "rewards": {    
       "experience": 10    
   },
-  "parent": "better_mob_drop:kill_piglin"
+  "parent": "better-mob-drop:kill_bee"
 }

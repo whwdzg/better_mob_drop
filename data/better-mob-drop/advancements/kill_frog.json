@@ -1,23 +1,23 @@
 {
   "criteria": {   
-      "kill_wandering_trader": {    
+      "kill_frog": {    
           "trigger": "player_killed_entity",    
           "conditions": {
               "entity":{
-                "type": "minecraft:wandering_trader"
+                "type": "minecraft:frog"
             }
           }
       }
   },
   "display": {
       "icon": {    
-          "item": "minecraft:lead"
+          "item": "minecraft:frogspawn"
        },
        "title": {
-           "translate": "流浪拴绳"
+           "translate": "我劝你识相"
        },
        "description": {
-           "translate": "旅途的终点..."
+           "translate": "蛙蛙犯了什么错？"
        },
        "frame": "task",    
        "announce_to_chat": false,     
@@ -25,10 +25,10 @@
        "show_toast": true
   },
   "requirements": [    
-      ["kill_wandering_trader"]
+      ["kill_frog"]
   ],
   "rewards": {    
       "experience": 10    
   },
-  "parent": "better_mob_drop:kill_vilager"
+  "parent": "better-mob-drop:kill_chicken"
 }

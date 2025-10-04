@@ -1,23 +1,23 @@
 {
   "criteria": {   
-      "kill_turtle": {    
+      "kill_chicken": {    
           "trigger": "player_killed_entity",    
           "conditions": {
               "entity":{
-                "type": "minecraft:turtle"
+                "type": "minecraft:chicken"
             }
           }
       }
   },
   "display": {
       "icon": {    
-          "item": "minecraft:scute"
+          "item": "minecraft:egg"
        },
        "title": {
-           "translate": "海龟帽的诞生"
+           "translate": "杀鸡取卵"
        },
        "description": {
-           "translate": "杀死一只无助的海龟"
+           "translate": "这是否有价值？"
        },
        "frame": "task",    
        "announce_to_chat": false,     
@@ -25,10 +25,10 @@
        "show_toast": true
   },
   "requirements": [    
-      ["kill_turtle"]
+      ["kill_chicken"]
   ],
   "rewards": {    
       "experience": 10    
   },
-  "parent": "better_mob_drop:better_mob_drop"
+  "parent": "better-mob-drop:better-mob-drop"
 }
